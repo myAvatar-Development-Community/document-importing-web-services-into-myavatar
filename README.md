@@ -29,10 +29,12 @@ Importing a web service into your myAvatar™ environments is pretty simple. Her
 
 Before attempting to import a web service into myAvatar™, you should make sure that you have a valid **W**eb **S**ervice **D**escription **L**anguage (**WSDL**) URL. To do this
 
-1. Paste the URL of the web service .asmx file in the address bar of a web browser, which should look like this:
+1. Paste the URL of the web service .asmx file in the address bar of a web browser, which should look like this:<br>
 `https://your-organization.com/MyAvatoolWebService.asmx`
-2. Add `?WSDL` to the end of the URL, so it looks like this:
+
+2. Add `?WSDL` to the end of the URL, so it looks like this:<br>
 `https://your-organization.com/MyAvatoolWebService.asmx?WSDL`
+
 3. Attempt to access that URL.
 
 For example, pointing a browser to `https://your-organization.com/CustomAvatarWebService.asmx?WSDL` should display XML that looks something like this:
