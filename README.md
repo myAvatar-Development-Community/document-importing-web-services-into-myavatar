@@ -1,4 +1,4 @@
-﻿<!-- 220503.110300 -->
+﻿<!-- 220505.110300 -->
 
 # Importing web services into myAvatar™
 
@@ -14,25 +14,25 @@
 ***
 
 # Introduction
+
 In order for myAvatar™ to consume a web service - both Netsmart and custom - you'll need to import the web service into myAvatar™. These instructions will walk you through that process.
 
 ## Before you begin
+
 To continue with this documentations, you will need to know the location of the web service you are going to import.
 
 # Importing a web service into your environment
+
 Importing a web service into your myAvatar™ environments is pretty simple. Here is how you do it.
 
 ## Confirming the web service WSDL
+
 Before attempting to import a web service into myAvatar™, you should make sure that you have a valid **W**eb **S**ervice **D**escription **L**anguage (**WSDL**) URL. To do this
 
 1. Paste the URL of the web service .asmx file in the address bar of a web browser, which should look like this:
-
 `https://your-organization.com/MyAvatoolWebService.asmx`
-
 2. Add `?WSDL` to the end of the URL, so it looks like this:
-
 `https://your-organization.com/MyAvatoolWebService.asmx?WSDL`
-
 3. Attempt to access that URL.
 
 For example, pointing a browser to `https://your-organization.com/CustomAvatarWebService.asmx?WSDL` should display XML that looks something like this:
@@ -51,6 +51,7 @@ If the XML above *is diplayed* in the browser, that URL is what you are going to
 If the XML above *is not displayed*, you'll need to get a valid WSDL location before continuing.
 
 ## Importing the web service WSDL
+
 Any form can be used to import a web service, and once a web service has been imported it can be used by any form that allows ScriptLink events.
 
 We will use the *Admissions* form to import the MAWS WSDL:
@@ -80,6 +81,6 @@ We will use the *Admissions* form to import the MAWS WSDL:
 <br>
 
 7. Copy/paste the web service WSDL URL into the **Import WSDL for ScriptLink** field in myAvatar™
-2. Click the **Import** button.
+8. Click the **Import** button.
 
 You should get a popup letting you know the WSDL was imported successfully.
